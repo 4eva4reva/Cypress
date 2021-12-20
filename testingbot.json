@@ -1,0 +1,31 @@
+{
+    "auth": {
+        "key": "eb2571f865ed15996d57a0f1f83a933d",
+        "secret": "677cfdd44a33ba2c8cee34fef5aa58a9"
+    },
+    "browsers": [
+        {
+	        "browserName": "chrome",
+	        "platform": "CATALINA",
+	        "version": "latest"
+	    },
+	    {
+	        "browserName": "chrome",
+	        "platform": "WIN10",
+	        "version": 88
+	    }
+    ],
+    "run_settings": {
+        "cypress_project_dir": "D:/Playground",
+        "build_name": "cypress-build",
+        "npm_dependencies": {},
+        "package_config_options": {},
+        "start_tunnel": true,
+        "local_ports": [8080],
+        "realTimeLogs": true,
+        "parallel": 5
+    },
+    "tunnel_settings": {
+        "verbose": false
+    }
+}
